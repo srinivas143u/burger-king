@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Marck+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Lily+Script+One&family=Marck+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Cookie&family=Lily+Script+One&family=Marck+Script&display=swap');
+
+:root{
+    --main-color: #ffc800;
+    --black:#333;
+    --white:#fff;
+    --background: #FFDF00;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Alkatra', cursive;
+    font-family: 'Cookie', cursive;
+    font-family: 'Lily Script One', cursive;
+    font-family: 'Marck Script', cursive;
+}
+.navbar{
+    box-shadow: 0 7px 7px 0 lightgray;
+}
+.navbar a{
+    font-family: 'Alkatra', cursive;
+    font-family: 'Marck Script', cursive;
+}
+.nav-item :hover{
+    background-color: var(--background);
+    
+}
+.nav-item{
+    font-family: 'Alkatra', cursive;
+font-family: 'Lily Script One', cursive;
+font-family: 'Marck Script', cursive;
+}
+.king{
+    color: var(--background);
+}
+.home{
+    background: linear-gradient(110deg, white 68%, #ffc800 32%);
+    padding-top: 100px;
+    width: 100%;
+}
+.home h1{
+    font-family: 'Alkatra', cursive;
+font-family: 'Marck Script', cursive;
+}
+h2{
+    font-family: 'Alkatra', cursive;
+font-family: 'Marck Script', cursive;
+}
+html{
+    scroll-padding-top: 6.9rem;
+}
+.Home .btn{
+    background-color: var(--main-color);
+    border-radius: 20px;
+    box-shadow: 0 10px 10px lightgray;
+}
+.About .col-md-6 h4{
+    color: var(--main-color);
+    font-family: 'Alkatra', cursive;
+font-family: 'Lily Script One', cursive;
+font-family: 'Marck Script', cursive;
+}
+.About .play-btn-wp{
+    background-image: url(img/about\ back.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+    box-shadow: 0 15px 15px 2px gray;
+}
+.About .img2 .fas1{
+     padding-top: 100px;
+}
+#top-icons  img{
+    width: 150px;
+}
+#offers .card {
+    box-shadow: 0 15px 15px 2px gray;
+}
+#offers1 .col-md-4 {
+    background-image: url(img/cards3.png);
+
+}
+#menu .card:hover{
+   background-color: var(--main-color);
+}
+#menu img{
+    box-shadow: 0 7px 18px 0 gray;
+}
+#menu span{
+    padding-left: 50px;
+}
+#banner {
+    margin-top: 100px;
+    width: 100%;
+    height: 60vh;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./img/banner.png);
+    background-size: cover;
+    text-align: center;
+
+}
+#banner h3{
+    padding-top: 120px;
+}
+#topmenu .card{
+    background: linear-gradient(110deg, white, #ffc800);
+}
+#topmenu .card{
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#topmenu .card:hover{
+    transform: translateY(-10px);
+}
+#others .card{
+    box-shadow: 0 15px 15px 3px gray;
+}
+#Gallery .card{
+    box-shadow: 0 15px 15px 0 gray;
+}
+#Gallery .card:hover{
+    transform: scale(1.05);
+}
+#footer{
+    background: linear-gradient(110deg, white 50%, #ffc800 50%);
+}
+h5{
+    font-family: 'Alkatra', cursive;
+font-family: 'Lily Script One', cursive;
+font-family: 'Marck Script', cursive;
+}
+h3{
+    font-family: 'Alkatra', cursive;
+font-family: 'Lily Script One', cursive;
+font-family: 'Marck Script', cursive;
+}
+.arrow{
+    position: fixed;
+    background-color: var(--main-color);
+    border-radius: 50px;
+    height: 50px;
+    bottom: 40px;
+    right: 50px;
+    width: 50px;
+    text-decoration: none;
+    border: 3px solid black;
+    text-align: center;
+    line-height: 50px;
+    color: black;
+}
